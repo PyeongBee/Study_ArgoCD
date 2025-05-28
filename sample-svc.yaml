@@ -4,6 +4,7 @@ metadata:
   name: sample-svc
   namespace: default
 spec:
+  replicas: 5
   selector:
     app: sample-app
   ports:
